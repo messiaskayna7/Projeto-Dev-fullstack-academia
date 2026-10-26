@@ -5,8 +5,8 @@ from .models import Modalidade, Turma
 
 ACADEMIA = {
     'nome': 'Academia Corpo',
-    'endereco': 'Rua Exemplo, 123 - Centro',
-    'telefone': '(00) 0000-0000',
+    'endereco': 'Caruaru - Centro',
+    'telefone': '(81) 0000-0000',
 }
 
 

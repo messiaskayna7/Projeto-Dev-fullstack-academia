@@ -35,6 +35,6 @@ class Turma(models.Model):
 
 
     def __str__(self):
-        dia = self.get_dia_semana_display()  # pyright: ignore[reportAttributeAccessIssue]
+        dia = self.get_dia_semana_display()
         return f'{self.modalidade.nome} - {dia} - {self.horario.strftime("%H:%M")} - {self.instrutor}'
 
